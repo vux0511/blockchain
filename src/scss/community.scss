@@ -1,0 +1,168 @@
+.community {
+    padding-bottom: 150px;
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-left: -30px;
+    }
+    &__item {
+        width: calc(25% - (120px / 4));
+        margin-left: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    &__image {
+        width: 50%;
+        position: relative;
+        padding-right: 30px;
+    }
+    &__image-profile {
+        object-fit: cover;
+        width: 100%;
+        height: 122px;
+        flex-shrink: 0;
+        border-radius: 25px;
+    }
+    &__verified-icon {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        bottom: -3px;
+        right: 30px;
+    }
+    &__info {
+        width: 50%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    &__name {
+        padding-top: 12px;
+        font-size: 15px;
+        font-weight: normal;
+        line-height: 20px;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-break: break-word;
+        margin-bottom: 6px;
+    }
+    &__price {
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        color: $secondary-gray;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 1279.98px) {
+    .community {
+        &__list {
+            margin-left: -20px;
+        }
+        &__name {
+            font-size: 20px;
+        }
+        &__price {
+            font-size: 16px;
+        }
+        &__item {
+            width: calc(50% - 20px);
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        &__info {
+            width: 60%;
+        }
+        &__image {
+            padding-right: 10px;
+            width: 40%;
+            &-profile {
+                width: 180px;
+                height: 180px;
+            }
+        }
+        &__verified-icon {
+            position: absolute;
+            bottom: 0;
+            right: 49px;
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 1023.98px) {
+    .community {
+        padding-bottom: 100px;
+        &__list {
+            margin-left: -20px;
+        }
+        &__name {
+            font-size: 18px;
+        }
+        &__price {
+            font-size: 14px;
+        }
+        &__item {
+            width: calc(50% - 20px);
+        }
+        &__info {
+            width: 70%;
+        }
+        &__image {
+            width: 30%;
+            &-profile {
+                width: 100px;
+                height: 100px;
+            }
+        }
+        &__verified-icon {
+            right: 4px;
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .community {
+        padding-bottom: 80px;
+        &__name {
+            font-size: 16px;
+        }
+        &__price {
+            font-size: 14px;
+        }
+        &__item {
+            width: calc(50% - 20px);
+        }
+        &__info {
+            width: 50%;
+        }
+        &__image {
+            padding-right: 10px;
+            width: 50%;
+            &-profile {
+                width: 80px;
+                height: 80px;
+            }
+        }
+        &__verified-icon {
+            position: absolute;
+            bottom: 0;
+            right: 4px;
+            width: 25px;
+            height: 25px;
+        }
+    }
+}

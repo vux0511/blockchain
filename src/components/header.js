@@ -28,7 +28,7 @@ function Header() {
                     <li className="header__item">
                         <a href="#" className="header__link">
                             {" "}
-                            Stats{" "}
+                            Stat{" "}
                         </a>
                     </li>
                     <div className="header__icon">

@@ -7,7 +7,7 @@ function Popular() {
                     <div className="card__list">
                         <div className="card__item">
                             <img
-                                src="https://cdn.dribbble.com/users/3293385/screenshots/19308396/media/b847d8679f0e7e2aa7d2d2f9022de8ac.png?resize=1000x750&vertical=center"
+                                src="https://i.seadn.io/gcs/files/3b262ba3c9738ed4b4c98c6c09e8a809.jpg?auto=format&dpr=1&h=500"
                                 alt=""
                                 className="card__image"
                             />
@@ -52,7 +52,7 @@ function Popular() {
                         </div>
                         <div className="card__item">
                             <img
-                                src="https://cdn.dribbble.com/users/3293385/screenshots/19308396/media/b847d8679f0e7e2aa7d2d2f9022de8ac.png?resize=1000x750&vertical=center"
+                                src="https://i.seadn.io/gcs/files/3c7c87e167de568d46ab793932818be1.png?auto=format&dpr=1&h=500"
                                 alt=""
                                 className="card__image"
                             />
@@ -97,7 +97,7 @@ function Popular() {
                         </div>
                         <div className="card__item">
                             <img
-                                src="https://cdn.dribbble.com/users/3293385/screenshots/19308396/media/b847d8679f0e7e2aa7d2d2f9022de8ac.png?resize=1000x750&vertical=center"
+                                src="https://i.seadn.io/gae/c0vtN-tL69g7SDL2oLUFIB7cNb4bfOnEyHh2Qson2jjyXXiejKFitY-6Kgd_A4LYG71CtiVEng91G-oHECGd2DxVLevgqmfs8PDq?auto=format&dpr=1&h=500"
                                 alt=""
                                 className="card__image"
                             />
@@ -142,7 +142,7 @@ function Popular() {
                         </div>
                         <div className="card__item">
                             <img
-                                src="https://cdn.dribbble.com/users/3293385/screenshots/19308396/media/b847d8679f0e7e2aa7d2d2f9022de8ac.png?resize=1000x750&vertical=center"
+                                src="https://i.seadn.io/gcs/files/9508acda43367f3c6ac78fd8d55bbea5.png?auto=format&dpr=1&h=500&fr=1"
                                 alt=""
                                 className="card__image"
                             />
@@ -187,7 +187,7 @@ function Popular() {
                         </div>
                         <div className="card__item">
                             <img
-                                src="https://cdn.dribbble.com/users/3293385/screenshots/19308396/media/b847d8679f0e7e2aa7d2d2f9022de8ac.png?resize=1000x750&vertical=center"
+                                src="https://i.seadn.io/gcs/files/9e2da33a4d931ce2c3b99322341324ec.png?auto=format&dpr=1&h=500"
                                 alt=""
                                 className="card__image"
                             />
@@ -232,7 +232,7 @@ function Popular() {
                         </div>
                         <div className="card__item">
                             <img
-                                src="https://cdn.dribbble.com/users/3293385/screenshots/19308396/media/b847d8679f0e7e2aa7d2d2f9022de8ac.png?resize=1000x750&vertical=center"
+                                src="https://i.seadn.io/gcs/files/0aa3075ce0e2a623cdf4beb708263967.png?auto=format&dpr=1&h=500"
                                 alt=""
                                 className="card__image"
                             />
@@ -277,7 +277,7 @@ function Popular() {
                         </div>
                         <div className="card__item">
                             <img
-                                src="https://cdn.dribbble.com/users/3293385/screenshots/19308396/media/b847d8679f0e7e2aa7d2d2f9022de8ac.png?resize=1000x750&vertical=center"
+                                src="https://i.seadn.io/gcs/files/aa98dbd1ecf8973695f6096bae3753da.jpg?auto=format&dpr=1&h=500&fr=1"
                                 alt=""
                                 className="card__image"
                             />
@@ -322,7 +322,7 @@ function Popular() {
                         </div>
                         <div className="card__item">
                             <img
-                                src="https://cdn.dribbble.com/users/3293385/screenshots/19308396/media/b847d8679f0e7e2aa7d2d2f9022de8ac.png?resize=1000x750&vertical=center"
+                                src="https://i.seadn.io/gcs/files/91b31b03a0789714da73136365509bae.png?auto=format&dpr=1&h=500&fr=1"
                                 alt=""
                                 className="card__image"
                             />

@@ -8,7 +8,7 @@ function Banner() {
                     <div className="banner__heading">
                         <h1>
                             Create, Sell &amp; Collect Your Own Creative
-                            <span>NFT</span>
+                            <span> NFT</span>
                         </h1>
                     </div>
                     <div className="banner__desc">

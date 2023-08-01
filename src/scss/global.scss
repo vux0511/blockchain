@@ -28,6 +28,10 @@ body {
     border: 0;
     color: $primary-white;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+        background-color: #efae2a;
+    }
     &-primary {
         color: $primary-black;
         background-color: $primary-yellow;
@@ -39,6 +43,11 @@ body {
         color: $primary-yellow;
         background-color: transparent;
         border: 2px solid var(--primary-primary-colors-01, #ffa800);
+        &:hover {
+            background-color: transparent;
+            border: 2px solid #e9bd66;
+            color: #e9bd66;
+        }
     }
     &-more {
         margin-top: 10px;
@@ -88,9 +97,11 @@ body {
         padding: 18px;
         margin-bottom: 30px;
         align-self: stretch;
-        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        transition: box-shadow 0.25s ease-in-out 0s, transform 0.25s ease 0s;
         &:hover {
-            box-shadow: rgba(149, 157, 165, 0.13) 0px 8px 24px;
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 24px;
+            transform: translate(0px, -4px);
         }
     }
     &__image,
@@ -101,6 +112,7 @@ body {
     &__image {
         margin-bottom: 13px;
         border-radius: 15px;
+        height: 175px;
     }
     &__image-user {
         width: 35px;

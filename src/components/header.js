@@ -5,7 +5,7 @@ function Header() {
     return (
         <header className="header">
             <div className="header__list">
-                <img src={Logo} alt="Logo" classname="header__logo" srcset="" />
+                <img src={Logo} alt="Logo" className="header__logo" />
                 <ul className="header__menu">
                     <li className="header__item">
                         <Link to="marketplace" className="header__link">

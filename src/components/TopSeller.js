@@ -110,7 +110,7 @@ function TopSeller() {
                         <div className="topseller__name">
                             Boby Sign Rator Rator
                         </div>
-                        <div className="topseller__price">214.2 Eth</div>
+                        <div className="topseller__price">214.3 Eth</div>
                     </div>
                     <div className="topseller__item">
                         <div className="topseller__image">

@@ -1,7 +1,24 @@
 import { Link } from "react-router-dom";
 import Logo from "../assets/images/logo.png";
+import { RiMenu3Fill } from "react-icons/ri";
+import { AiOutlineShoppingCart, AiOutlineSearch } from "react-icons/ai";
 
 function Header() {
+    const menuToggle = () => {
+        const menuToggle = document.querySelector(".menu-toggle");
+        const menu = document.querySelector(".header__menu");
+
+        if (!menuToggle || !menu) return;
+        menuToggle.addEventListener("click", function () {
+            menu.classList.add("is-active");
+        });
+        document.addEventListener("click", function (e) {
+            if (!menu.contains(e.target) && !e.target.matches(".menu-toggle")) {
+                menu.classList.remove("is-active");
+            }
+        });
+    };
+
     return (
         <header className="header">
             <div className="header__list">
@@ -32,14 +49,8 @@ function Header() {
                         </a>
                     </li>
                     <div className="header__icon">
-                        <ion-icon
-                            name="search-outline"
-                            className="header__icon-search"
-                        />
-                        <ion-icon
-                            name="cart-outline"
-                            className="header__icon-cart"
-                        />
+                        <AiOutlineSearch className="header__icon-cart" />
+                        <AiOutlineShoppingCart className="header__icon-cart" />
                     </div>
                     <li className="header__item">
                         <div className="header__button">
@@ -52,7 +63,8 @@ function Header() {
                         </div>
                     </li>
                 </ul>
-                <i className="fa-solid fa-bars-staggered menu-toggle" />
+                {/* <i className="fa-solid fa-bars-staggered menu-toggle" /> */}
+                <RiMenu3Fill onClick={menuToggle} className="menu-toggle" />
             </div>
         </header>
     );

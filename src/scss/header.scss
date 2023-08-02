@@ -61,17 +61,13 @@
             color: #e1dede;
         }
     }
-    ion-icon {
-        font-size: 23px;
-        font-weight: 800;
-        line-height: 30px;
-        cursor: pointer;
-    }
     &__icon {
         &-search,
         &-cart {
             margin: 0 15px;
-            font-weight: 500;
+            font-size: 23px;
+            line-height: 30px;
+            cursor: pointer;
         }
     }
 }

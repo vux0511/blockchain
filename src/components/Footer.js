@@ -1,34 +1,41 @@
+import Logo from "../assets/images/logo.png";
+import LogoDiscord from "../assets/images/discord.svg";
+import LogoInstagram from "../assets/images/instagram.svg";
+import LogoYoutube from "../assets/images/youtube.svg";
+
 function Footer() {
     return (
         <footer className="footer">
             <div className="container footer__container">
                 <ul className="footer__list">
                     <li className="footer__item">
-                        <img
-                            src="images/logo.png"
-                            alt="Logo"
-                            className="footer__logo"
-                        />
+                        <img src={Logo} alt="Logo" className="footer__logo" />
                         <div className="footer__desc">
                             The best NFT marketplace website in the world and
                             feel your experience in selling or buy our work
                         </div>
                         <div className="footer__social">
-                            <img
-                                src="images/youtube.svg"
-                                alt=""
-                                className="footer__social-youtube"
-                            />
-                            <img
-                                src="images/discord.svg"
-                                alt=""
-                                className="footer__social-discord"
-                            />
-                            <img
-                                src="images/instagram.svg"
-                                alt=""
-                                className="footer__social-instagram"
-                            />
+                            <a href="" className="footer__link">
+                                <img
+                                    src={LogoYoutube}
+                                    alt=""
+                                    className="footer__social-youtube"
+                                />
+                            </a>
+                            <a href="" className="footer__link">
+                                <img
+                                    src={LogoDiscord}
+                                    alt=""
+                                    className="footer__social-youtube"
+                                />
+                            </a>
+                            <a href="" className="footer__link">
+                                <img
+                                    src={LogoInstagram}
+                                    alt=""
+                                    className="footer__social-youtube"
+                                />
+                            </a>
                         </div>
                     </li>
                     <li className="footer__item">

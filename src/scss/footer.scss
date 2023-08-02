@@ -26,6 +26,10 @@
         font-size: 15px;
         line-height: 22px; /* 146.667% */
         text-transform: capitalize;
+        transition: all 0.15s ease-in-out;
+        &:hover {
+            color: #eee;
+        }
     }
     &__logo {
         width: 44px;
